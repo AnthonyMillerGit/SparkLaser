@@ -1,10 +1,16 @@
-import React from "react";
+import GlobalStyle from './GlobalStyle';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <h1>Hello, Brent!</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 }
 
