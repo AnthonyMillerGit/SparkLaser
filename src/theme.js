@@ -1,6 +1,7 @@
 export const colors = {
-    light: '#F2F2F2',
-    beige: '#EAE4D5',
-    stone: '#B6B09F',
-    black: '#000000',
-  };
+  background: '#FAF9F6',  // soft cream
+  accent: '#FFD300',      // neon yellow
+  dark: '#1A1A1A',         // near-black for header
+  black: '#000000',
+  white: '#FFFFFF',
+};
